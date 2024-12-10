@@ -1,0 +1,129 @@
+/*
+****** LIMPAR FORMATAÇÔES ******
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*
+****** FORMATAÇÔES GENÉRICAS ******
+*/
+
+body{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #000000;
+}
+h1{
+    
+    font-size: 40px;
+}
+
+h2{
+    color: #cc5c00;
+    padding-bottom: 20px ;
+    margin-bottom: 20px;
+    /* text-align: center; */
+    border-bottom: 1px #ff7300 solid;
+}
+
+ h4{
+    color: #ff6600;
+    
+} 
+
+/*
+****** HEADER ******
+*/
+#header{
+    background-color: #cc5200;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+}
+
+#logo, #menu{
+    padding: 10px;
+}
+
+#header a:link, #header a:visited{
+    color: #FFFFFF;
+    padding: 8px 12px;
+}
+
+#header a:hover{
+    color: #cc5200;
+    background-color: #ffffff;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.white{
+    color: #ffffff;
+}
+
+/*
+****** CONTENT ******
+*/
+#content{
+    width: 600px;
+    margin: 150px auto;
+    padding: 15px;
+}
+.cont{
+    padding: 80px;
+    margin-bottom: 100px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border-style:dashed ;
+    border-color: #cc5200;
+    text-align: justify;
+}
+
+/*
+****** BUTTON ******
+*/
+
+button{
+    padding: 10px 10px;
+    color: #ff6600;
+    background-color: #ffffff;
+    border-color: #cc5200;
+    border-radius: 10px;
+
+}
+
+button:hover{
+    background-color:#cc5c00;
+    color:#FFFFFF;
+}
+
+
+/*
+****** FORMATAÇÂO LINKS ******
+*/
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: #0066CC;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/*
+****** FOOTER ******
+*/
+
+#footer{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background:#cc5200;
+    color:#FFFFFF;
+}
